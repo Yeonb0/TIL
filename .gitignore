@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Obsidian (machine-specific only)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/.gitignore
+
+# 임시 / 초안
+draft/
+*.draft.md
+.scratch/
+
+# 환경
+.env
