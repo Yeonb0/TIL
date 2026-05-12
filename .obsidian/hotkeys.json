@@ -1,12 +1,8 @@
 {
   "templater-obsidian:create-new-note-from-template": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Mod", "Shift"],
       "key": "T"
     }
-  ],
-  "workspace:undo-close-pane": []
+  ]
 }

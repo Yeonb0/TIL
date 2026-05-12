@@ -1,0 +1,33 @@
+name: Update README
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "README.md"      # README 변경은 트리거 제외 (무한 루프 방지)
+      - ".github/**"
+      - "scripts/**"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run update script
+        run: node scripts/update-readme.js
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update README"
+          git push

@@ -6,5 +6,7 @@
   "newLinkFormat": "relative",
   "promptDelete": false,
   "showLineNumber": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "spellcheck": false,
+  "tabSize": 2
 }

@@ -10,26 +10,11 @@
 
 ## 📚 카테고리
 
-### Algorithm / PS
-- 
+<!-- CATEGORY-START -->
+### 📐 Algorithm / PS
+- [LIS 를 O(N log N) 으로 구하기](./algorithm/lis-nlogn.md)
 
-### C / C++
-- _( 예정 )_
-
-### Computer Graphics
-- _( 예정 )_
-
-### Network
-- _( 예정 )_
-
-### Web (TypeScript / React / Astro)
-- _( 예정 )_
-
-### Git
-- _( 예정 )_
-
-### Etc
-- _( 예정 )_
+<!-- CATEGORY-END -->
 
 ---
 
@@ -43,22 +28,11 @@
 
 ## 📝 새 TIL 작성
 
-**Obsidian 사용 시** :
+`Cmd+Shift+T` ( Windows / Linux : `Ctrl+Shift+T` ) → 파일명 입력 → 카테고리 선택
 
-1. `Cmd+Shift+T` ( Windows / Linux : `Ctrl+Shift+T` )
-2. 템플릿 → `til` 선택
-3. 파일명 입력 ( kebab-case 권장, 예 : `segment-tree-lazy-propagation` )
-4. 카테고리 선택
-5. 자동으로 폴더에 분류되어 생성됨
+새 카테고리를 추가하고 싶다면 카테고리 목록에서 **"➕ 새 카테고리 추가"** 선택.
 
-**일반 에디터 사용 시** :
-
-```bash
-cp _templates/til.md algorithm/새주제.md
-# Templater 문법 (<%* %> 등) 은 수동으로 채우거나 제거
-```
-
-> ⚠️ 새 TIL 작성 후 이 README 의 카테고리 섹션에 링크 추가하는 것 잊지 말기
+> ⚠️ README 카테고리 섹션은 **push 시 자동 갱신**됩니다. 직접 수정하지 마세요.
 
 ## 🎯 목표
 
@@ -70,37 +44,16 @@ cp _templates/til.md algorithm/새주제.md
 
 ## 📊 통계
 
-> 수동 업데이트. Dataview 플러그인 설치하면 자동화 가능.
+- 시작일 : YYYY-MM-DD ← 첫 TIL 작성 후 한 번만 직접 수정
 
-- 총 TIL 수 : 1
-- 시작일 : YYYY-MM-DD ( ← 첫 TIL 작성일로 수정 )
-- 가장 활발한 카테고리 : -
-
----
-
-## 🗂 디렉토리 구조
-
-```
-til/
-├── README.md              ← 메인 인덱스 (이 파일)
-├── SETUP.md               ← Obsidian 셋업 가이드
-├── _templates/
-│   └── til.md             ← Templater 템플릿 (Obsidian 용)
-├── _attachments/          ← 이미지 등 첨부 파일 (자동 생성됨)
-├── .obsidian/             ← Obsidian 설정 (커밋됨, workspace.json 만 제외)
-├── .gitignore
-├── algorithm/             ← 카테고리별 폴더
-├── cpp/
-├── network/
-├── graphics/
-├── web/
-├── git/
-└── etc/
-```
+<!-- STATS-START -->
+- 총 TIL 수 : **1**
+- 마지막 업데이트 : 2026-05-07
+<!-- STATS-END -->
 
 ---
 
 ## 📖 참고한 TIL repo 들
 
 - [jbranchaud / til](https://github.com/jbranchaud/til) — 1700+ 개, 카테고리 분류의 정석
-- [simonw / til](https://github.com/simonw/til) — 자동 인덱스 생성 스크립트로 유명
+- [simonw / til](https://github.com/simonw/til) — 자동 인덱스 생성으로 유명
