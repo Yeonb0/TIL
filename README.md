@@ -11,8 +11,17 @@
 ## 📚 카테고리
 
 <!-- CATEGORY-START -->
-### 📐 Algorithm / PS
-- [LIS 를 O(N log N) 으로 구하기](./algorithm/lis-nlogn.md)
+### 📁 C
+- [C언어 파일 입출력 (File I/O)](./c/C언어 파일 입출력.md)
+
+### 📁 Java
+- [Java 의 객체 전달 방식](./java/Java 의 객체 전달 방식.md)
+
+### 📁 Javascript
+- [DOM Manipulation](./javascript/DOM 관리.md)
+- [Date 객체와 날짜](./javascript/Date 객체와 날짜.md)
+- [Truthy & Falsy](./javascript/Truthy & Falsy.md)
+- [JavaScript Array Methods](./javascript/배열 메소드.md)
 
 <!-- CATEGORY-END -->
 
@@ -47,8 +56,8 @@
 - 시작일 : YYYY-MM-DD ← 첫 TIL 작성 후 한 번만 직접 수정
 
 <!-- STATS-START -->
-- 총 TIL 수 : **1**
-- 마지막 업데이트 : 2026-05-07
+- 총 TIL 수 : **6**
+- 마지막 업데이트 : 2026-05-12
 <!-- STATS-END -->
 
 ---
