@@ -21,7 +21,13 @@
 - [DOM Manipulation](./javascript/DOM 관리.md)
 - [Date 객체와 날짜](./javascript/Date 객체와 날짜.md)
 - [Truthy & Falsy](./javascript/Truthy & Falsy.md)
+- [JS 배열 고차 함수: map / filter / forEach / find](./javascript/map, filter, forEach, find.md)
 - [JavaScript Array Methods](./javascript/배열 메소드.md)
+
+### 🕸 Web
+- [HTML 태그](./web/HTML 태그.md)
+- [React 새 프로젝트 시작하기](./web/React 새 프로젝트 시작하기.md)
+- [<select> vs <fieldset> + <legend>](./web/select vs fieldset + legend.md)
 
 <!-- CATEGORY-END -->
 
@@ -56,8 +62,8 @@
 - 시작일 : 2026-05-07
 
 <!-- STATS-START -->
-- 총 TIL 수 : **6**
-- 마지막 업데이트 : 2026-05-12
+- 총 TIL 수 : **10**
+- 마지막 업데이트 : 2026-05-13
 <!-- STATS-END -->
 
 ---
