@@ -14,6 +14,9 @@
 ### 📁 C
 - [C언어 파일 입출력 (File I/O)](./c/C언어 파일 입출력.md)
 
+### 📦 Etc
+- [Git Commit Message Convention](./etc/Git Commit Message Convention.md)
+
 ### 📁 Java
 - [Java 의 객체 전달 방식](./java/Java 의 객체 전달 방식.md)
 
@@ -22,7 +25,10 @@
 - [Date 객체와 날짜](./javascript/Date 객체와 날짜.md)
 - [Truthy & Falsy](./javascript/Truthy & Falsy.md)
 - [JS 배열 고차 함수: map / filter / forEach / find](./javascript/map, filter, forEach, find.md)
+- [React useEffect](./javascript/useEffect.md)
+- [동기(Synchronous) vs 비동기(Asynchronous)](./javascript/동기와 비동기.md)
 - [JavaScript Array Methods](./javascript/배열 메소드.md)
+- [Untitled](./javascript/비동기 작업 처리하기.md)
 
 ### 🕸 Web
 - [HTML 태그](./web/HTML 태그.md)
@@ -62,8 +68,8 @@
 - 시작일 : 2026-05-07
 
 <!-- STATS-START -->
-- 총 TIL 수 : **10**
-- 마지막 업데이트 : 2026-05-13
+- 총 TIL 수 : **14**
+- 마지막 업데이트 : 2026-05-19
 <!-- STATS-END -->
 
 ---
